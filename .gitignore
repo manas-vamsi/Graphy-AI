@@ -1,0 +1,23 @@
+# Python / uv
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secrets & local data (NEVER commit)
+backend/.env
+secrets/
+backend/data/
+*.db
+*.sqlite3
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Misc
+.DS_Store
+Thumbs.db
